@@ -1,0 +1,17 @@
+building process :
+
+1. c source code  (sample.c)
+ > processor
+
+2. expanded source code  (sample.i)
+ > compiler  
+
+3. assembly code (sample.asm)
+ > assembler
+
+4.1 relocatable object code (sample.obj)
+4.2 object code of library functions
+  > linker 
+
+5. executable code (sample.exe)
+   > loader
